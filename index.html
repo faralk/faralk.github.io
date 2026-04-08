@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fares Alkorani</title>
+  <link href="./output.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after {
+        box-sizing: border-box;
+    }
+    html, body {
+        font-family: 'Instrument Sans', sans-serif; 
+    }
+  </style>
+</head>
+<body class="text-white px-16 py-14" style="background-color: #0048FF;">
+
+  <!-- Header -->
+  <header class="mb-10">
+    <h1 class="text-6xl font-extrabold tracking-tight mb-3 inline-flex items-center gap-3">
+    Fares Alkorani
+    <img src="personalsite_star.svg" alt="star" class="w-12 h-12"/>
+    </h1>
+    <p class="text-sm text-white mb-4">
+      alkorani [dot] fares [at] gmail [dot] com &nbsp;·&nbsp;
+      <a href="https://www.linkedin.com/in/faresalkorani/" target="_blank" rel="noopener noreferrer" class="underline hover:text-white">LinkedIn</a>
+      &nbsp;·&nbsp;
+      <a href="https://github.com/faralk" target="_blank" rel="noopener noreferrer" class="underline hover:text-white">Github</a>
+    </p>
+    <p class="text-lg">
+      Hello! I am a fourth year computer science student at the
+      <em>University of Toronto</em> – I love curating experiences for users and 
+    </p>
+  </header>
+
+  <!-- Experiences -->
+  <section class="mb-10">
+    <h2 class="text-lg font-bold mb-3">Experiences</h2>
+    <ul class="list-disc list-inside space-y-1 text-lg">
+      <li>Software Engineering Intern @ Sonical.ly (2024)</li>
+      <li>Software Engineering Intern @ Swimingo (2024)</li>
+      <li>Teaching Assistant @ University of Toronto – Principles of Programming Languages (2024, 2025)</li>
+    </ul>
+  </section>
+
+  <!-- Two-column section -->
+  <div class="grid grid-cols-2 gap-12">
+
+    <!-- Highlighted Projects -->
+    <section>
+      <h2 class="text-lg font-bold mb-4">Highlighted Projects</h2>
+
+      <!-- Project 1 -->
+      <div class="mb-6">
+        <h3 class="font-normal text-lg underline inline-flex items-center gap-2 mb-1">
+          Transformer Visualizer
+          <span class="bg-white text-black text-xs px-2 py-0.5 rounded-full no-underline">New</span>
+        </h3>
+        <ul class="list-disc list-inside text-base space-y-0.5 text-blue-100">
+          <li>A transformer explainer that explains the inner workings of transformer models like GPT-2 step by step, internationalized to accomodate Chinese and French speaking users.</li>
+          <li>Tech stack: React, Python, PyTorch, FastAPI</li>
+          <li>Links:
+            <a href="https://transformer-visualizer-eight.vercel.app" target="_blank" rel="noopener noreferrer" class="underline hover:text-white">Website</a>,
+            <a href="https://github.com/utmgdsc/Transformer-Visualizer" target="_blank" rel="noopener noreferrer"class="underline hover:text-white">Github</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="mb-6">
+        <h3 class="font-normal text-lg underline inline-flex items-center gap-2 mb-1">
+          AI Clinical Note Generator
+          <span class="bg-white text-black text-xs px-2 py-0.5 rounded-full no-underline">New</span>
+        </h3>
+        <ul class="list-disc list-inside text-base space-y-0.5 text-blue-100">
+          <li>Built for the 2026 GenAIGenesis hackathon, this application generates clinical SOAP notes for doctors and patient summaries for patients to refer to after a medical appointment.</li>
+          <li>Tech stack: React, ElevenLabs Scribe v2, FastAPI, Supabase</li>
+          <li>Links:
+            <a href="https://frontend-delta-ochre-79.vercel.app/" target="_blank" rel="noopener noreferrer" class="underline hover:text-white">Website</a>,
+            <a href="https://devpost.com/software/ai-clinical-note-generator" target="_blank" rel="noopener noreferrer" class="underline hover:text-white">Devpost</a>,
+            <a href="https://github.com/saurabh13113/ClinicEar-GenAI2026" target="_blank" rel="noopener noreferrer" class="underline hover:text-white">Github</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="mb-6">
+        <h3 class="font-normal text-lg underline mb-1">
+          Android Banking App for Illiterate Users
+        </h3>
+        <ul class="list-disc list-inside text-base space-y-0.5 text-blue-100">
+          <li>A mobile application designed to provide banking services to users who are illiterate or have limited digital literacy; to have initial testing conducted in Sierra Leone.</li>
+          <li>Tech stack: Kotlin, Jetpack Compose, Gradle, Android Studio</li>
+          <li>Links:
+            <a href="https://myoralvillage.github.io/OIM-Taler-Wallet/" target="_blank" rel="noopener noreferrer" class="underline hover:text-white">Documentation (includes screenshots)</a>,
+            <a href="https://github.com/MyOralVillage/OIM-Taler-Wallet" target="_blank" rel="noopener noreferrer" class="underline hover:text-white">Github</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section>
+      <h2 class="text-lg font-bold mb-4">Skills</h2>
+
+      <!-- Languages -->
+      <div class="mb-5">
+        <h3 class="font-normal text-lg underline mb-1">Languages</h3>
+        <p class="text-base text-blue-100">
+          Javascript, TypeScript, Python, Java, SQL, Kotlin, Haskell, Racket, CSS, Bash, R
+        </p>
+      </div>
+
+      <!-- Libraries/Frameworks -->
+      <div class="mb-5">
+        <h3 class="font-normal text-lg underline mb-1">Libraries/Frameworks</h3>
+        <p class="text-base text-blue-100">
+          React, FastAPI, React Router, Tailwind CSS, shadcn/ui, Jetpack Compose
+        </p>
+      </div>
+
+      <!-- Databases -->
+      <div class="mb-5">
+        <h3 class="font-normal text-lg underline mb-1">Databases</h3>
+        <p class="text-base text-blue-100">
+          PostgreSQL, SQLite, MongoDB, Firebase, Supabase
+        </p>
+      </div>
+
+      <!-- Developer Tools -->
+      <div class="mb-5">
+        <h3 class="font-normal text-lg underline mb-1">Developer Tools</h3>
+        <p class="text-base text-blue-100">
+          Git, Github, Linux/Unix, VirtualBox, Visual Studio, Android Studio, Gradle, GDB, Selenium, Vite, Claude
+        </p>
+      </div>
+    </section>
+
+  </div>
+
+</body>
+</html>
